@@ -2,7 +2,7 @@
 
 This is the Pipeline to create 3D PointCloud Dataset for Machine learning from Lidar. 
 
-Mainly using ROS, this includes realsense-lidar, capture depth-image, crate PCD(Point Clod Data), meshlab annotation .etc .
+Mainly using ROS, this includes realsense-lidar, capture depth-image, crate PCD(Point Clod Data), PCL preprosecing, meshlab annotation .etc .
 
 # Version
 - Ubuntu 20.04
