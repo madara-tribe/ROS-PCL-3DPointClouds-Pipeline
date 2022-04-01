@@ -34,11 +34,12 @@ pip3 install open3d trimish
 
 <b>Network Environment</b> 
 
-<img src="https://user-images.githubusercontent.com/48679574/161109088-b8b2134d-88a6-4fc3-b812-1aefa9c1341a.png" width="400px">
+<img src="https://user-images.githubusercontent.com/48679574/161230708-b3bb5b9a-262c-4726-8236-87286e25f390.png" width="400px">
 
 <b>Entire pipeline</b>
 
-<img src="https://user-images.githubusercontent.com/48679574/161109025-23e04d71-a45f-4194-84a4-696d8d602bba.png" width="650px">
+<img src="https://user-images.githubusercontent.com/48679574/161230782-f59f0f0a-7c83-48fe-93dc-31fc61e172df.png" width="650px">
+
 
 
 # PCL Preprocess
