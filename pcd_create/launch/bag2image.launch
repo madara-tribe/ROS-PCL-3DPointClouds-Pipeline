@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- default arg parameter --> 
+  <arg name="bag_path" default="/home/hagi/place/image_raw.bag" />
+  <arg name="transform_topic" default="/camera/color/image_raw" />
+  <arg name="output_path" default="/home/hagi/place/images/frame%04d.jpg" />
+  <!-- rosbag node name --> 
+  <node pkg="rosbag" type="play" name="rosbag_play" args="$(arg bag_path)"/>
+     
+  <!-- reproduce image node -->
+  <node name="extract" pkg="image_view" type="extract_images" respawn="false" output="screen">
+      <remap from="image" to="$(arg transform_topic)"/>
+      <param name="filename_format" value="$(arg output_path)"/>
+  </node>
+</launch>

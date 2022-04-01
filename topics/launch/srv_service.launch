@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="topics" name="velocity_client" type="velocity_client.py"/>
+    <node pkg="topics" name="velocity_server" type="velocity_server.py"/>
+</launch>

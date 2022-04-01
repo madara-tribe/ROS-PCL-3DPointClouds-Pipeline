@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="topics" name="service_client" type="service_client.py"/>
+    <node pkg="topics" name="service_server" type="service_server.py"/>
+</launch>

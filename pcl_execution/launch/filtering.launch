@@ -1,0 +1,8 @@
+<launch>
+  <arg name="in" default="data/table_scene_lms400.pcd"/>
+  <node name="cloud_loader" pkg="pcl_execution" type="cloud_loader">
+      <param name="pcd" value="$(arg in)"/>
+  </node>
+  <node name="cloud_filter" pkg="pcl_execution" type="cloud_filter" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find pcl_execution)/rviz/filtering.rviz" required="true" />
+</launch>

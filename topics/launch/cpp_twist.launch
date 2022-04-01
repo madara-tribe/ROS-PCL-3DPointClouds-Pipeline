@@ -1,0 +1,7 @@
+<launch>
+  <arg name="cmd_vel" default="/cmd_vel"/>
+  <arg name="name" default="wheel_drive"/>
+
+
+  <node name="joy_twist" pkg="topics" type="joy_twist"/>
+</launch>
