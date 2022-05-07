@@ -1,4 +1,4 @@
-# ROS and PCL preprocess for creating 3D PointCloud ML dataset
+# Pipeline to create 3D PointCloud for IOT with ROS and PCL
 
 This is the Pipeline to create 3D PointCloud Dataset for Machine learning from Lidar. 
 
